@@ -36,3 +36,9 @@ select COUNT(*) from address_book where state='UP' group by state;
 select firstname,city from address_book order by firstname asc;
 select * from address_book order by firstname asc;
 
+/*UC9*/
+alter table address_book add typename varchar(30);
+update address_book set typename='Friends' where firstname='Anirudh' or firstname='Punit' or firstname='Shashank';
+update address_book set typename='Family' where firstname='Pawan' or firstname='Rohan';
+update address_book set typename='Profession' where  firstname='Raj';
+
