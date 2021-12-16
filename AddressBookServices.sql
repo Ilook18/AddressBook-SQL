@@ -22,4 +22,7 @@ update address_book set pno='7905142212' where firstname='Anirudh';
 update address_book set address='Golghar' where firstname='Shashank';
 update address_book set email='punit123@gmail.com' where lastname='Yadav';
 
+/*UC5*/
+delete from address_book where firstname='Rahul';
+
 
