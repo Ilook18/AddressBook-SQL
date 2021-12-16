@@ -25,4 +25,6 @@ update address_book set email='punit123@gmail.com' where lastname='Yadav';
 /*UC5*/
 delete from address_book where firstname='Rahul';
 
+/*UC6*/
+select * from address_book where city='Mumbai' or state='Maharashtra';
 
