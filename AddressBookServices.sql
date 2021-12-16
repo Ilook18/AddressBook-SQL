@@ -32,3 +32,7 @@ select * from address_book where city='Mumbai' or state='Maharashtra';
 select COUNT(*) from address_book;
 select COUNT(*) from address_book where state='UP' group by state;
 
+/*UC8*/
+select firstname,city from address_book order by firstname asc;
+select * from address_book order by firstname asc;
+
