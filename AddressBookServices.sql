@@ -28,3 +28,7 @@ delete from address_book where firstname='Rahul';
 /*UC6*/
 select * from address_book where city='Mumbai' or state='Maharashtra';
 
+/*UC7*/
+select COUNT(*) from address_book;
+select COUNT(*) from address_book where state='UP' group by state;
+
