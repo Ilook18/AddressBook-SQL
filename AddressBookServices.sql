@@ -17,4 +17,9 @@ insert into address_book values
 ('Akshay','Rana','Sector9','Bhopal','MP','24000','7905142212','akshay@gmail.com');
 select * from address_book;
 
+/*UC4*/
+update address_book set pno='7905142212' where firstname='Anirudh';
+update address_book set address='Golghar' where firstname='Shashank';
+update address_book set email='punit123@gmail.com' where lastname='Yadav';
+
 
